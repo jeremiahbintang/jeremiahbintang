@@ -21,7 +21,12 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "@components": ["app/components/index"],      
+      "@components/*": ["app/components/*"],
+    }
   },
   "include": [
     "next-env.d.ts",

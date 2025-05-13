@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { NavBar } from "@components";
+
 const inter = Inter({
   subsets: ["latin"],
 });
@@ -32,7 +34,12 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
-      <body className="bg-black text-white">{children}</body>
+      <body className="bg-black text-white">
+        <div className="max-w-8xl m-auto">
+          <NavBar />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
