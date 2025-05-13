@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Linkedin } from "react-feather";
+import Link from "next/link";
+import { Linkedin, Home } from "react-feather";
 
 export const metadata: Metadata = {
   title: "Jeremiah Bintang",
@@ -11,8 +12,12 @@ export default function Page() {
   return (
     <div className="max-w-8xl m-auto">
       <div className="flex flex-col justify-between items-start h-screen">
-        <div className="px-6 py-8 text-3xl cursor-pointer">
-          <div>home</div>
+        <div className="px-6 py-8 text-3xl">
+          <div>
+            <Link href="/">
+              <Home />
+            </Link>
+          </div>
         </div>
         <div className="px-6 py-8 flex flex-col gap-3">
           <div className="text-7xl">Jeremiah Bintang Santoso</div>
