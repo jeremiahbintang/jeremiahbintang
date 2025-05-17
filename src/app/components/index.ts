@@ -1,2 +1,2 @@
-export { default as Accordion, AccordionTitle, AccordionContent } from "./Accordion";
-export { default as NavBar } from "./NavBar";
+export { default as Accordion, AccordionTitle, AccordionContent } from "./accordion";
+export { default as NavBar } from "./navbar";
