@@ -152,7 +152,7 @@ export const jobs = [
       {
         title: "Technology",
         content: (
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-x-10 gap-y-2">
             <div>
               Tools:
               <ul className="list-disc list-inside">
@@ -202,7 +202,7 @@ export const jobs = [
       {
         title: "Technology",
         content: (
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-x-10 gap-y-2">
             <div>
               Tools:
               <ul className="list-disc list-inside">
@@ -248,7 +248,7 @@ export const jobs = [
       {
         title: "Technology",
         content: (
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-x-10 gap-y-2">
             <div>
               Tools:
               <ul className="list-disc list-inside">

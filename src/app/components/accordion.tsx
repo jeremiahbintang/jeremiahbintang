@@ -36,7 +36,7 @@ export function AccordionTitle({ children }: AccordionTitle) {
   const { isOpen, setIsOpen } = useAccordionContext();
   return (
     <div
-      className={`z-1 flex gap-4 h-6 items-center text-xl font-bold cursor-pointer`}
+      className={`z-1 flex gap-4 h-6 items-center h-fit text-xl font-bold cursor-pointer`}
       onClick={() => setIsOpen(!isOpen)}
     >
       <button
