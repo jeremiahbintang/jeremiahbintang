@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Linkedin, Home } from "react-feather";
+import { Linkedin } from "react-feather";
 
 export const metadata: Metadata = {
   title: "Jeremiah Bintang",
