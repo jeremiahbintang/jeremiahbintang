@@ -24,8 +24,8 @@
     ],
     "baseUrl": "src",
     "paths": {
-      "@/components": ["src/app/components/index"],      
-      "@/components/*": ["src/app/components/*"],
+      "@/components": ["app/components/index"],      
+      "@/components/*": ["app/components/*"],
     }
   },
   "include": [
